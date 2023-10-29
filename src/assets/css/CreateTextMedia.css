@@ -1,0 +1,44 @@
+.createTextMedia{
+    background: #ebebeb !important;
+   
+}
+
+.create-adds-container{
+    padding: 20px;
+    border: 1px solid  rgba(34, 31, 31, 0.3);
+    border-radius: 7px;
+}
+
+.headingAddsTextMedia{
+    padding-bottom: 20px !important;
+    font-weight: 600;
+    color:  rgba(34, 31, 31, 0.8) !important;
+}
+
+.buttons{
+      width: 100%;
+      /* background-color: #f8f9fa;  */
+      padding: 10px;
+}
+
+.buttons button{
+    margin: 0 10px;
+    padding: 5px 40px;
+}
+
+input::placeholder {
+    color: rgba(34, 31, 31, 0.5) !important;
+  }
+
+  textarea::placeholder {
+    color: rgba(34, 31, 31, 0.5) !important;
+  }
+
+
+  /* select::value {
+    color: rgba(34, 31, 31, 0.5) !important;
+  } */
+
+  select {
+    color:rgba(34, 31, 31, 0.5) !important;
+  }

@@ -1,0 +1,62 @@
+
+.createAdds{
+    background-color: rgba(34, 31, 31, 0.7) !important;
+}
+
+.headingAdds{
+    padding: 20px;
+    padding-top: 15px !important;
+    font-weight: 600;
+    color:  rgba(34, 31, 31, 0.8) !important;
+}
+
+.create-adds-container{
+    width: 98%;
+    height: 90vh;
+    max-width: 98%; /* Adjust the maximum width as needed */
+    max-height: 87vh; /* Adjust the maximum height as needed */
+    margin: 0;
+    position: absolute;
+    top: 3vh; bottom: 0; /* Center vertically */
+    left: 0; right: 0; /* Center horizontally */
+    background-color: rgb(255, 255, 255);
+    transform: translate(1%, 0%);
+}
+
+.cards{
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-25%, -50%);
+}
+
+.css-1rwjz6-MuiCardActions-root{
+    padding-top: 5px !important;
+    padding-bottom: 20px !important;
+    background-color: #ebe5e563;
+
+}
+
+@keyframes highlightAnimation {
+    0% {
+      background-color: rgb(98, 126, 185); /* Change to your highlight color */
+    }
+    100% {
+      background-color: initial;
+    }
+  } 
+
+.highlightCard{
+    animation: highlightAnimation 2s; /* Duration of the animation */
+
+}
+
+.imageCenter{
+   position: relative;
+    top: 150px; 
+    left: 50%;
+    transform: translate(-25%, -50%);
+    margin: 0px !important;
+    padding: 0px !important;
+    z-index: 100;
+}

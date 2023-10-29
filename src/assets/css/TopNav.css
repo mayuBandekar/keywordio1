@@ -1,0 +1,30 @@
+.top-bar {
+    background-color: #fff;
+    color: rgba(9, 9, 9, 0.7);
+    padding: 10px 0;
+    border: 1px solid rgba(222, 221, 221, 0.6);
+    font-weight: 700;
+  }
+  
+  .top-bar-content {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+  }
+  
+  .nav-links a {
+    color: rgba(24, 24, 24, 0.7);
+    margin-left: 30px;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .nav-links {
+    padding-left: 130px;
+  }

@@ -1,0 +1,18 @@
+.body-content {
+    position: relative;
+    background: rgba(227, 219, 219, 0.3);
+    -webkit-transition: padding 0.3s;
+    transition: padding 0.3s;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+  
+  
+.body-content {
+  padding-right: 0;
+  padding-left: 0 !important;
+}
+
+* {
+    box-sizing: border-box;
+  }
